@@ -1,0 +1,15 @@
+python3 train/train.py \
+    --img_height 256 \
+    --img_width 512 \
+    --train_reference_type full \
+    --val_reference_type full \
+    --train_dir /root/dataset/ReflectionRemoval/Syn80000/train \
+    --val_dir /root/dataset/ReflectionRemoval/Syn80000/val \
+    --nepoch 3000 \
+    --checkpoint 500 \
+    --warmup \
+    --batch_size 1 \
+    --gpu '0' \
+    --arch Uformer_B_noshift_nomodulator \
+    --dataset Syn80000 \
+    --env maskedloss\

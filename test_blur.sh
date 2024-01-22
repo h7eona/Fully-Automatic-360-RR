@@ -1,0 +1,1 @@
+python3 test/test_vis_attn.py --img_height 256 --img_width 512 --arch Uformer_B_laplacian --gpus 1 --input_dir /root/dataset/ReflectionRemoval/Real/ECCV22_Real_NR_256_Blurred/ --result_dir /root/workplace/2024_WACV/result_test34/result_blurred_h1_lap --weights /root/workplace/2024_WACV/result_a100/Uformer_B_laplacian_h1/model_epoch_20_6999.pth

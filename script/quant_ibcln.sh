@@ -1,0 +1,1 @@
+python3 quant_metrics.py --output_dir '/root/workplace/2023_ICCV_Methods/quant_results/IBCLN' --trans_dir '/root/dataset/ReflectionRemoval/ECCV22_quant/quant/T_256_cropped'

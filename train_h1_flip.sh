@@ -1,0 +1,18 @@
+python3 train/train.py \
+    --img_height 256 \
+    --img_width 512 \
+    --train_reference_type full \
+    --val_reference_type full \
+    --train_dir /home/viplab/dataset/WACV28K_v3/train \
+    --val_dir /home/viplab/dataset/WACV28K_v3/val \
+    --save_dir /home/viplab/jhpark/2024_WACV/result \
+    --real_dir /home/viplab/dataset/ECCV22_Real_NR_1K \
+    --nepoch 20 \
+    --checkpoint 500 \
+    --warmup \
+    --train_workers 8 \
+    --batch_size 4 \
+    --gpu '0,1' \
+    --arch Uformer_B_laplacian_qflip \
+    --dataset WACV28K_v3 \
+    --env _h1

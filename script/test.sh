@@ -1,0 +1,1 @@
+python3 test/test_pano_vis.py --arch Uformer_B_noshift_nomodulator --gpus 8 --input_dir /root/dataset/ReflectionRemoval/Syn80000/val --result_dir ./results/vis_e20/ --weights /root/workplace/results/uniclus/motiondeblur/Syn80000/Uformer_B_noshift_nomodulator_AttnVis/models/model_best_e20.pth
